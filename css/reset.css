@@ -9,30 +9,8 @@
 vh altura
 vw largura */
 
-
-.body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #eaedf0;
+body {
+    background-color: #f5f5f5;
     padding: 20px;
-    gap: 200px;
-
-}
-
-.card-container-horiz{
-    display: flex; /* Flexbox para alinhar cards horizontalmente */
-    gap: 20px; /* Espaçamento entre os cards */
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
-}
-
-.card-container-vert{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: #333;
 }
